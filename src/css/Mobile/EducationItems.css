@@ -1,0 +1,39 @@
+.m-EduItemDiv {
+    width: 100%;
+    margin-top: 15%;
+}
+
+
+.m-course {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 2%;
+}
+
+.m-course-row {
+    background-color: #EA7773;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 3%;
+}
+
+.m-university {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-top: 1%;
+    width: 100%;
+}
+
+
+.m-edufa{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.m-eduspace{
+    margin-left: 2%;
+    margin-top: 3%;
+}

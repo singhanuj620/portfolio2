@@ -1,0 +1,21 @@
+.m-aw-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+
+.m-aw-space {
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.m-aw-fa {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.m-aw-sp{
+    margin-top: 10%;
+}

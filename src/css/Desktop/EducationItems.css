@@ -1,0 +1,40 @@
+.EduItemDiv{
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+
+
+.course{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 1.4rem;
+	padding-left: 2%;
+	white-space: nowrap;
+}
+
+.course-row{
+	background-color: #EA7773;
+	border-radius: 10px;
+	letter-spacing: 1px;
+}
+
+.set-icon{
+	padding-top: 2px;
+	margin-right: 2%;
+	background-color: white;
+}
+
+.university{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 1rem;
+	padding-top: 1%;
+	padding-left: 5%;
+	width: 100%;
+}
+
+.grade{
+	padding-top: 1%;
+	padding-left: 2.8%;
+}

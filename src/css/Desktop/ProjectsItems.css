@@ -1,0 +1,58 @@
+.ProItemDiv{
+	width: 100%;
+	margin-top: 2%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+}
+
+
+.pro-title-row{
+	background-color: #EA7773;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.pro-title{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 1.5rem;
+	padding-left: 2%;
+	white-space: nowrap;
+}
+
+.tag-row{
+	margin-top: 2%;
+}
+
+.tags{
+	white-space: nowrap;
+	cursor: pointer;
+	font-size: 1.1rem;
+}
+
+.pro-cont{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 1.3rem;
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 8%;
+}
+
+.links{
+	margin-top: 3.8rem;
+}
+
+.pro-link-main{
+	white-space: nowrap;
+}
+
+
+.click-here-pro{
+	padding-left: 5%;
+	white-space: nowrap;
+	color: black;
+	font-size: 1.2rem;
+	font-weight: 500;
+	letter-spacing: 3px;
+}

@@ -1,0 +1,49 @@
+.m-dp {
+    height: 150px;
+    margin: auto;
+}
+
+.m-info-name{
+    width: 100%;
+    font-size: 300%;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-family: 'Montserrat',
+    sans-serif;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.m-desc {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.m-phone-email{
+    font-family: 'Open Sans',
+    sans-serif;
+    font-weight: 600;
+    white-space: nowrap;
+    margin-bottom: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-follow{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10%;
+}
+
+.m-icons{
+    display: block;
+    width: 20%;
+}
+
+.m-set-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

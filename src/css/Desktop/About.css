@@ -1,0 +1,53 @@
+.name-heading{
+	height: 30vh;
+}
+
+.desc{
+	height: 43vh;
+	text-align: left;
+	margin-top: 5%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.3rem;
+}
+
+.follow{
+	height: 18vh;
+}
+
+.set-icon{
+	margin-top: 50%;
+}
+
+.icons{
+	margin-left: -5%;
+}
+
+
+a,
+a:hover{
+	color: inherit;
+}
+
+.info-name{
+	font-size: 6rem;
+	margin-top: 2%;
+	letter-spacing: 3px;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.first-name{
+	color: black;
+}
+
+.last-name{
+	margin-left: 6%;
+	color: #EA7773;
+}
+
+.phone-email{
+	margin-top: -1%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	white-space: nowrap;
+}
