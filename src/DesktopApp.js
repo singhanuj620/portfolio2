@@ -10,7 +10,7 @@ import MNavbar from './Components/Desktop/Card/MNavbar'
 
 const DesktopApp = () => {
 
-  const [pageName, setPageName] = useState("awards")
+  const [pageName, setPageName] = useState("about")
 
   const changePageName = (page) => {
     setPageName(page)
