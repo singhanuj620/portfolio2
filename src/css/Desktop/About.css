@@ -1,34 +1,33 @@
-.name-heading{
+.name-heading {
 	height: 30vh;
 }
 
-.desc{
-	height: 43vh;
+.desc {
 	text-align: left;
 	margin-top: 5%;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.3rem;
 }
 
-.follow{
+.follow {
 	height: 18vh;
 }
 
-.set-icon{
+.set-icon {
 	margin-top: 50%;
 }
 
-.icons{
+.icons {
 	margin-left: -5%;
 }
 
 
 a,
-a:hover{
+a:hover {
 	color: inherit;
 }
 
-.info-name{
+.info-name {
 	font-size: 6rem;
 	margin-top: 2%;
 	letter-spacing: 3px;
@@ -36,18 +35,72 @@ a:hover{
 	font-family: 'Montserrat', sans-serif;
 }
 
-.first-name{
+.first-name {
 	color: black;
 }
 
-.last-name{
+.last-name {
 	margin-left: 6%;
 	color: #EA7773;
 }
 
-.phone-email{
+.phone-email {
 	margin-top: -1%;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	white-space: nowrap;
+}
+
+.hid-dp {
+	display: none;
+}
+
+@media only screen and (max-width: 767px) {
+	.hid-dp {
+		display: block;
+	}
+
+	.m-dp {
+		height: 150px;
+		margin: auto;
+	}
+
+	.m-top-space {
+		margin-top: 25%;
+	}
+
+	.center-dp {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.info-name {
+		font-size: 3rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 5%;
+	}
+
+	.desc {
+		margin-top: 40%;
+		font-size: 1.1rem;
+	}
+
+	.phone-email {
+		margin-top: 5%;
+		margin-left: 3%;
+	}
+
+	.phone-email>span {
+		padding-top: 30%;
+	}
+
+	.m-iconset {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: auto;
+	}
 }

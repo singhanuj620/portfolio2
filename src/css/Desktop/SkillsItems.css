@@ -1,11 +1,11 @@
-.SkItemDiv{
+.SkItemDiv {
 	width: 100%;
 	margin-top: 2%;
 	margin-bottom: 5%;
 }
 
 
-.sk-title{
+.sk-title {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 	font-size: 1.5rem;
@@ -14,21 +14,40 @@
 	letter-spacing: 2px;
 }
 
-.sk-title-row{
+.sk-title-row {
 	background-color: #EA7773;
 	border-radius: 10px;
 }
 
-.set-icon{
+.set-icon {
 	padding-top: 2px;
 	margin-right: 2%;
 	background-color: white;
 }
 
-.cont{
+.cont {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 1.3rem;
 	width: 100%;
 	white-space: nowrap;
+}
+
+
+@media only screen and (max-width: 767px) {
+	.SkItemDiv {
+		margin-top: 25%;
+	}
+
+	.sk-title {
+		font-size: 1.1rem;
+	}
+
+	.cont {
+		font-size: 1rem;
+	}
+
+	.m-sk-space {
+		margin-top: 5%;
+	}
 }

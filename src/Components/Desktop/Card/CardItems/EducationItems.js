@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container , Row , Col} from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 import {
 	FaSchool,
 	FaTrophy,
@@ -8,7 +8,7 @@ import {
 } from 'react-icons/fa';
 import '../../../../css/Desktop/EducationItems.css'
 
-const EducationItems = ({course,university, college, percentage, year}) => {
+const EducationItems = ({ course, university, college, percentage, year }) => {
 	return (
 		<div className="EduItemDiv">
 			<Container fluid >
@@ -25,7 +25,7 @@ const EducationItems = ({course,university, college, percentage, year}) => {
 
 						<Row>
 							<span className="university">
-								<FaTrophy/> &nbsp; &nbsp;{university}
+								<FaTrophy /> &nbsp; &nbsp;{university}
 							</span>
 						</Row>
 
@@ -33,21 +33,21 @@ const EducationItems = ({course,university, college, percentage, year}) => {
 
 						<Row>
 							<span className="university">
-								<FaSchool/> &nbsp; &nbsp;{college}
+								<FaSchool /> &nbsp; &nbsp;{college}
 							</span>
 						</Row>
 
 
 						<Row>
-							<Col lg={6} md={6} className="grade">
+							<Col lg={6} md={6} sm={6} className="grade">
 								<span className="university">
-									<FaPercent/> &nbsp; &nbsp;{percentage}
+									<FaPercent /> &nbsp; &nbsp;{percentage}
 								</span>
 							</Col>
 
-							<Col lg={6} md={6} className="grade">
+							<Col lg={6} md={6} sm={6} className="grade">
 								<span className="university">
-									<FaCalendarAlt/> &nbsp; &nbsp;{year}
+									<FaCalendarAlt /> &nbsp; &nbsp;{year}
 								</span>
 							</Col>
 						</Row>
@@ -55,7 +55,7 @@ const EducationItems = ({course,university, college, percentage, year}) => {
 				</Row>
 			</Container>
 		</div>
-		)
+	)
 }
 
 export default EducationItems

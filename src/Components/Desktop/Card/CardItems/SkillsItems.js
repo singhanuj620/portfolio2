@@ -1,11 +1,11 @@
 import React from 'react'
-import { Container , Row , Col} from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 import {
 	FcApproval
 } from 'react-icons/fc';
 import '../../../../css/Desktop/SkillsItems.css'
 
-const SkillsItems = ({title,contains}) => {
+const SkillsItems = ({ title, contains }) => {
 	return (
 		<div className="SkItemDiv">
 			<Container fluid >
@@ -18,22 +18,22 @@ const SkillsItems = ({title,contains}) => {
 							</span>
 						</Row>
 
-						<Row>
-							{contains.map( (c,index) => ( 
-									<Col lg={5} md={6} key={index}> 
-										<span className="cont">
-											<FcApproval/> &nbsp; &nbsp;{c}
-										</span> 
-									</Col>
-									)
-								)
-							}						
+						<Row className="m-sk-space">
+							{contains.map((c, index) => (
+								<Col lg={5} md={6} key={index}>
+									<span className="cont">
+										<FcApproval /> &nbsp; &nbsp;{c}
+									</span>
+								</Col>
+							)
+							)
+							}
 						</Row>
 					</Container>
 				</Row>
 			</Container>
 		</div>
-		)
+	)
 }
 
 export default SkillsItems

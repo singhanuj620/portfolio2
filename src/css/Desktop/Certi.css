@@ -1,20 +1,36 @@
-.certi-title{
+.certi-title {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 1.2rem;
+	padding-left: 3%;
 }
 
-.certi-org{
+.certi-org {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 1.1rem;
 	white-space: nowrap;
 }
 
-.certi-space{
-	margin-top: 3%;
+.certi-space {
+	margin-top: 6%;
 }
 
-.certi-sp{
-	margin-top: 1%;
+.certi-sp {
+	margin-top: 2%;
+}
+
+@media only screen and (max-width: 767px) {
+	.certi-title {
+		font-size: 1rem;
+		padding-left: 3%;
+	}
+
+	.certi-org {
+		font-size: 1rem;
+	}
+
+	.certi-sp {
+		margin-left: 30%;
+	}
 }

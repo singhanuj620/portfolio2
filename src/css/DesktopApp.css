@@ -1,8 +1,14 @@
-.menu{
+.menu {
 	height: 100vh;
 	padding: 0;
 }
 
-.content{
+.content {
 	padding: 0;
+}
+
+@media only screen and (max-width: 767px) {
+	.menu {
+		display: none;
+	}
 }
