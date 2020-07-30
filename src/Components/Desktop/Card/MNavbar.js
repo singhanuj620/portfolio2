@@ -52,7 +52,7 @@ const MNavbar = ({ changePageName }) => {
 
                         <NavItem>
                             <Row className="m-resdiv">
-                                <Button className="m-resbtn">Resume</Button>
+                                <Button className="resbtn"><a download href="./images/portfolio.png">Resume</a></Button>
                             </Row>
                         </NavItem>
                     </Nav>
