@@ -104,3 +104,17 @@ a:hover {
 		width: auto;
 	}
 }
+
+@media only screen and (max-height: 500px) {
+	.desc {
+		margin-top: 80%;
+		font-size: 1.1rem;
+	}
+}
+
+@media only screen and (max-height: 600px) {
+	.desc {
+		margin-top: 70%;
+		font-size: 1.1rem;
+	}
+}
